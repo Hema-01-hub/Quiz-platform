@@ -1,0 +1,70 @@
+.body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+h2 {
+  color: #34495e;
+}
+
+nav {
+  background: #3498db;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+div {
+  padding: 10px;
+}
+
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+h4 {
+  color: green;
+}
+
+.quiz-card {
+  background: white;
+  margin: 15px auto;
+  padding: 15px;
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
