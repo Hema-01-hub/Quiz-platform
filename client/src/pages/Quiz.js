@@ -20,7 +20,7 @@ function Quiz() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5001/questions")
+      .get("https://quiz-platform-j38o.onrender.com/questions")
       .then((res) => {
         const shuffledQuestions = shuffleArray(
           res.data.map((q) => ({
@@ -53,7 +53,7 @@ function Quiz() {
     try {
       const username = localStorage.getItem("username");
 
-      const res = await axios.post("http://localhost:5001/submit-quiz", {
+      const res = await axios.post("https://quiz-platform-j38o.onrender.com/submit-quiz", {
         username,
         answers,
       });

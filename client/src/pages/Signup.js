@@ -11,7 +11,7 @@ function Signup() {
   const registerUser = async () => {
     try {
       const res = await axios.post(
-        "http://localhost:5001/register",
+        "https://quiz-platform-j38o.onrender.com/register",
         {
           username,
           email,

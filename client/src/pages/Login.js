@@ -10,7 +10,7 @@ function Login() {
 
   const loginUser = async () => {
     try {
-      const res = await axios.post("http://localhost:5001/login", {
+      const res = await axios.post("https://quiz-platform-j38o.onrender.com/login", {
         email,
         password,
       });

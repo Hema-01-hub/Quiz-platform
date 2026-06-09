@@ -5,7 +5,7 @@ function Leaderboard() {
   const [leaders, setLeaders] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5001/leaderboard")
+    axios.get("https://quiz-platform-j38o.onrender.com/leaderboard")
       .then((res) => setLeaders(res.data))
       .catch(() => alert("Failed to load leaderboard ❌"));
   }, []);
